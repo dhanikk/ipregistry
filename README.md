@@ -6,6 +6,6 @@ Step:2 -- Add alias in aliases section  <code>"Ipregistry" => Ipregistry\Laravel
 
 Step:3 -- In Controller File
 
-<code>use Ipregistry;
+<code>use Ipregistry; <br>
   Ipregistry::getcurrentlocation('Your ipregistry key here',["ip address"]);
 </code>
